@@ -1,0 +1,111 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #fffaf7;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header / Navbar */
+header {
+  background: #ff9800;
+  color: #fff;
+  padding: 15px 30px;
+}
+
+.container.nav {
+  display: flex;
+  justify-content: space-between; /* Logo left, nav right */
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+nav {
+  display: flex;
+  gap: 20px; /* spacing between links */
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.hero h1 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.hero p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.hero img {
+  max-width: 350px;
+  width: 90%;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Reviews Section */
+.quotes-wrap {
+  background: #fff2dc;
+  margin: 30px 0;
+  padding: 15px 25px;
+  border-radius: 6px;
+}
+
+.quotes h3 {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.quotes ul {
+  list-style: disc inside;
+  font-size: 14px;
+  color: #444;
+}
+
+.quotes li {
+  margin-bottom: 5px;
+}
+
+.quotes em {
+  color: #666;
+}
+
+/* Footer */
+footer {
+  background: #ffe0b2;
+  text-align: center;
+  padding: 15px 10px;
+  font-size: 13px;
+  color: #444;
+  margin-top: 20px;
+}
+
+
